@@ -1,1 +1,16 @@
 remote_theme: "mmistakes/minimal-mistakes"
+
+collections:
+ eye-tracking:
+  output: true
+  permalink: /:collection/:path
+
+defaults:
+  # _eye-tracking
+  - scope:
+      path: ""
+      type: eye-tracking
+    values:
+      layout: single
+      author_profile: false
+      share: false
