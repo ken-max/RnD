@@ -7,7 +7,7 @@ collections:
 
 pages_list:
  Test: '/TEST'
- Eye-Tracking: '/eye-tracking/hello_world'
+ Eye-Tracking: '/eye-tracking'
 
 defaults:
   # _eye-tracking
