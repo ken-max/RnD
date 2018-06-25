@@ -3,18 +3,8 @@ theme: minima
 collections:
  eye-tracking:
   output: true
-  permalink: /:collection/:path
 
 pages_list:
  Test: '/TEST'
  Eye-Tracking: '/eye-tracking'
 
-defaults:
-  # _eye-tracking
-  - scope:
-      path: ""
-      type: eye-tracking
-    values:
-      layout: single
-      author_profile: false
-      share: false
