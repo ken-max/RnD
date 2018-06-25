@@ -5,6 +5,10 @@ collections:
   output: true
   permalink: /:collection/:path
 
+pages_list:
+ Test: '/TEST'
+ Eye-Tracking: '/eye-tracking/hello_world'
+
 defaults:
   # _eye-tracking
   - scope:
