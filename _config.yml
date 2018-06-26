@@ -1,10 +1,34 @@
-theme: minima
+######################################################################
+# Add config info here!
+# To add a new documentation topic of name DOC_TOPIC, extend both 'collections' and 'header_pages' with the following
+#
+#collections:
+# [current collections info]
+# DOC_TOPIC:
+#  output:true
+#
+#header_pages:
+# [current header_pages info]
+# - DOC_TOPIC.md
+#
 
 collections:
- eye-tracking:
+ documentation:
   output: true
 
-pages_list:
- Test: '/TEST'
- Eye-Tracking: '/eye-tracking'
+header_pages:
+ - documentation.md
 
+
+######################################################################
+# Nothing below here should normally be messed with
+######################################################################
+
+theme: minima
+
+plugins:
+ - jekyll-relative-links
+
+relative_links:
+ enableD: true
+ collections: true
