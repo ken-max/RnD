@@ -33,7 +33,7 @@ b+
     {% comment %}
    <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
    {% endcomment %}
-   [{{item.title}}]({{item.url}})
+   [{{item.title}}]({{item.url | prepend: site.baseurl}})
     {% endif %}
    {% endfor %}
   {% endfor %}
