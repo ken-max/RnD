@@ -3,39 +3,38 @@ layout: page
 title: About
 toc:
  - Setting Up A Local Documentation Copy
- - Making a New Documentation Project
+ - Making a New Project
  - Writing Documentation
+ - Markdown
 ---
 
-Follow the links in the table of contents below to learn how to set up a local copy of this site and  create and maintain documentation.
+# Site Layout
 
-A reminder that you can use the [editor on GitHub](https://github.com/Max-Mobility/RnD/edit/master/README.md) to maintain and preview the content of the site.
+This site is built using [Jekyll](https://jekyllrb.com/) and hosted on
+[Github Pages](https://pages.github.com/). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in your Markdown files.
+Each project being documented is separated into its own subfolder that contains all
+files pertaining to that project (markdown documentation, images,
+etc). Each subfolder has the nameing scheme of `_project_name` so that the
+folder can be recognized as a Jekyll collection for ease of use.
 
-### Markdown
+The only file for each project not contained within this folder is a
+markdown file in this repo's root directory to serve as the landing page
+for the project. It has the nameing scheme of `project_name.md`. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:
+# Documentation Documentation
 
-```markdown
-Syntax highlighted code block
+Follow the links in the table of contents below to learn how to set up a
+local copy of this site and create and maintain documentation.
 
-# Header 1
-## Header 2
-### Header 3
+A reminder that you can use the [editor on
+GitHub](https://github.com/Max-Mobility/RnD/edit/master/README.md) to
+maintain and preview the content of the site.
 
-- Bulleted
-- List
+Whenever you commit to this repository, GitHub Pages will run
+[Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the
+content in your Markdown files.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-**All documentation on this site will be made using markdown.** No other knowledge should be necessary to get started.
+**All documentation on this site will be made using markdown.** No other
+knowledge should be necessary to get started.
 
