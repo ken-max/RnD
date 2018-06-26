@@ -25,22 +25,18 @@ You did not properly set up the `About` file for your collection! Be sure you fo
 
 # Contents
 
-b+
  {% if about.toc %}
   {% for content in about.toc %}
    {% for item in collection %}
     {% if item.title == content %}
-    {% comment %}
-   <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
-   {% endcomment %}
-   [{{item.title}}]({{item.url | relative_url}})
+   <p><a href="{{ item.url | relative_url }}">{{ item.title }}</a></p>
     {% endif %}
    {% endfor %}
   {% endfor %}
  {% else %}
   {% for item in collection %}
    {% if item.title != "About" %}
-   <p><a href="{{ item.url | prepend: site.url }}">{{ item.title }}</a></p>
+   <p><a href="{{ item.url | relative_url }}">{{ item.title }}</a></p>
    {% endif %}
   {% endfor %}
  {% endif %}
