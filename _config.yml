@@ -33,4 +33,4 @@ relative_links:
  enableD: true
  collections: true
 
-baseurl: /RnD
+#baseurl: /RnD
