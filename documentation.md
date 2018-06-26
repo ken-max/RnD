@@ -30,7 +30,9 @@ You did not properly set up the `About` file for your collection! Be sure you fo
   {% for content in about.toc %}
    {% for item in collection %}
     {% if item.title == content %}
+    {% comment %}
    <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
+   {% endcomment %}
    [{{item.title}}]({{item.url}})
     {% endif %}
    {% endfor %}
