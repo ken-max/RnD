@@ -25,7 +25,7 @@ You did not properly set up the `About` file for your collection! Be sure you fo
 
 # Contents
 
-
+b+
  {% if about.toc %}
   {% for content in about.toc %}
    {% for item in collection %}
