@@ -37,7 +37,7 @@ You did not properly set up the `About` file for your collection! Be sure you fo
  {% else %}
   {% for item in collection %}
    {% if item.title != "About" %}
-   <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+   <p><a href="{{ item.url | prepend: site.url }}">{{ item.title }}</a></p>
    {% endif %}
   {% endfor %}
  {% endif %}
