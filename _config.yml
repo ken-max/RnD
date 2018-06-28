@@ -15,9 +15,12 @@
 collections:
  documentation:
   output: true
+ gazebo-simulation:
+  output: true
 
 header_pages:
  - documentation.md
+ - gazebo-simulation.md
 
 
 ######################################################################
