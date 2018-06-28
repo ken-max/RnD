@@ -22,7 +22,7 @@ The only file for each project not contained within this folder is a
 markdown file in this repo's root directory to serve as the landing page
 for the project. It has the nameing scheme of `project_name.md`. 
 
-# Documentation Documentation
+# Documentation How-To
 
 Follow the links in the table of contents below to learn how to set up a
 local copy of this site and create and maintain documentation.
