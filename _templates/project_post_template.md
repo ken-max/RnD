@@ -1,6 +1,6 @@
 ---
 layout: page
-title: [Documentation Page Title]
+title: Documentation Page Title
 ---
 
 This is an example of a page or post dedicated to a specific topic within a project. Add whatever you want here!
