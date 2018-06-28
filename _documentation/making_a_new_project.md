@@ -81,7 +81,7 @@ cp _templates/project_about_template.md _my-project/about.md
 ```
 The about file is intended to provide a quick summary of the
 project. An [optional table of contents can also be made in the front
-matter](#table-of-contents).
+matter](writing_documentation.md).
 
 # Edit _config.yaml to add your project to the site
 
@@ -160,3 +160,8 @@ header_pages:
 ```
 
 And that is it! You now have your own project documentation stub!
+
+
+# Next Steps
+
+Learn how to [write documentation](writing_documentation.md)
