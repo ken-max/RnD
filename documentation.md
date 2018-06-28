@@ -45,6 +45,6 @@ You did not properly set up the `About` file for your collection! Be sure you fo
 
 # Uh Oh!
 
-You did not properly set up your collection! The `title` field in this document's front matter does not match any existing collection folder!  Be sure you followed the directions located [here](README.md)
+You did not properly set up your collection! The `title` field in this document's front matter does not match any existing collection folder!  Be sure you followed the directions located [here](documentation/making_a_new_project.md)
 
 {% endif %}
