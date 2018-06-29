@@ -19,11 +19,14 @@ collections:
   output: true
  gazebo-simulation:
   output: true
+ gaze-tracking:
+  output: true
 
 header_pages:
  - documentation.md
  - meeting-notes.md
  - gazebo-simulation.md
+ - gaze-tracking.md
 
 
 ######################################################################
