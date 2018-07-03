@@ -21,7 +21,7 @@ collections:
   output: true
  gaze-tracking:
   output: true
- Spherical Induction Motor:
+ SIM:
   output: true
 
 header_pages:
@@ -29,7 +29,7 @@ header_pages:
  - meeting-notes.md
  - gazebo-simulation.md
  - gaze-tracking.md
- - Spherical Induction Motor.md
+ - SIM.md
 
 
 ######################################################################
