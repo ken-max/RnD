@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spherical Induction Motor
+title: Spherical ACIM
 project: SIM
 ---
 
