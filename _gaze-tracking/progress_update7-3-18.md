@@ -10,6 +10,7 @@ title: Progress Update 7/3/18
 * Made project portable to make it easy to run on various machines
 * Tested execution on small dataset (5 subjects, ~100 pictures)
 * Currently testing execution and training on full dataset (1474 subjects, ~2.5 million pictures) to replicate results found in [Eye tracking for everyone](http://gazecapture.csail.mit.edu/) (Krafka et al., 2016)
+* Created documentation for setup and execution of the program located [here](https://github.com/SwapnilPande/GazeTracking/blob/master/iTracker/README.md)
 
 # Next Steps
 * Finish training model on William's computer and measure model performance
