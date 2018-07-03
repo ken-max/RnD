@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spherical Induction Motor
-project: Spherical Induction Motor
+project: SIM
 ---
 
 {% for item in site.collections %}
