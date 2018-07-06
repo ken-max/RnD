@@ -16,6 +16,7 @@ title: End of Week Progress Update 7/6/18
   * Beginning implementation of TensorBoard to monitor training progress
 * Current status:
   * Model is training on William's Computer (Nvidia GeForce GTX 1080) with 80 subjects (50 training, 20 validation, 10 testing) 
+  
 # Findings
   * Model execution time is currently bottlenecked by File I/O & Memory space
     * Traditional hard drives do not have enough bandwidth to train model at reasonable speed
