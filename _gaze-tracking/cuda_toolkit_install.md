@@ -56,6 +56,8 @@ NOTE: These commands are for Ubuntu 16.04. For 17.10, run ```sudo dpkg -i cuda-r
 
 Verify that the installation was successful by navigating to ```/usr/local/cuda-9.0```. the directory structure should be similar to the one shown below.
 
+![Cuda-toolkit-expected-directory](Cuda-9.0-Expected Directory Structure.png)
+
 Reboot your computer to load all drivers.
 
 # Installing cuDNN SDK v7.1
@@ -66,6 +68,7 @@ tar -xf cudnn-9.2-linux-x64-v7.1.tgz
 sudo cp -R cuda/include/* /usr/local/cuda-9.0/include
 sudo cp -R cuda/lib64/* /usr/local/cuda-9.0/lib64
 ```
+
 
 # Updating Path Variables
 Add the CUDA toolkit to ```$PATH``` and ```$LD_LIBRARY_PATH```
