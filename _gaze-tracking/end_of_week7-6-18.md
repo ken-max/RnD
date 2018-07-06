@@ -22,6 +22,7 @@ title: End of Week Progress Update 7/6/18
     * SSD is significantly faster, but is still (likely) bottlenecking model execution speed. Additional testing is required to verify this bottleneck.
     * Tensorflow execution speed can be improved with increased V-RAM
     * Training and iteration will only be possible on Nvidia DGX-1
+    
 # Next Steps
 * Evaluate model performance from preliminary training on William's computer
 * Create visualizer to visualize the output of the model
