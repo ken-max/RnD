@@ -56,7 +56,7 @@ NOTE: These commands are for Ubuntu 16.04. For 17.10, run ```sudo dpkg -i cuda-r
 
 Verify that the installation was successful by navigating to ```/usr/local/cuda-9.0```. the directory structure should be similar to the one shown below.
 
-![Cuda-toolkit-expected-directory](Cuda-9.0-Expected Directory Structure.png)
+![Cuda-toolkit-expected-directory](Cuda-9.0-Expected Directory Structure.PNG)
 
 Reboot your computer to load all drivers.
 
