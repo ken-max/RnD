@@ -64,7 +64,7 @@ Reboot your computer to load all drivers.
 Navigate to the [CUDNN homepage] and click download cuDNN. Click ```Download cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0``` and select your platform. 
 Run the following commands to install cuDNN:
 ```
-tar -xf cudnn-9.2-linux-x64-v7.1.tgz
+tar -xf cudnn-9.0-linux-x64-v7.1.tgz
 sudo cp -R cuda/include/* /usr/local/cuda-9.0/include
 sudo cp -R cuda/lib64/* /usr/local/cuda-9.0/lib64
 ```
