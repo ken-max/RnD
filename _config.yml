@@ -23,6 +23,12 @@ collections:
   output: true
  SIM:
   output: true
+ mobility-unlimited:
+  output: true
+ roomba:
+  output: true
+ autochair:
+  output: true
 
 header_pages:
  - documentation.md
@@ -30,6 +36,9 @@ header_pages:
  - gazebo-simulation.md
  - gaze-tracking.md
  - SIM.md
+ - mobility-unlimited.md
+ - roomba.md
+ - autochair.md
 
 
 ######################################################################
