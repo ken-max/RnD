@@ -39,7 +39,14 @@ NY company performed a small (~12 user) survey about powered wheelchair difficul
   * combine with HL depth stream to follow people?
 
 ## F1Tenth
-
+* First prototype built with ZED camera.
+  * Needs program for autonomy
+* Second prototype will be built with HD camera
+  * Need to order Elroy board for camera connection
+  * Need to order cable kits for Elroy board
+  * Need additional LiPo battery (already on order)
+  * Need second power board built up
+  
 ## Gazebo
 
 * work on in september
