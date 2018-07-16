@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Sanitized meeting notes detailing current project focus and direction.
+TODO: Move notes to the post directory since they are periodic and time-dependent.
